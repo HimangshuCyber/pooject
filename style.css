@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+body{
+    font-family: 'Poppins';
+    color: white;
+    background-color: black;
+}
+h1{
+    font-weight: bold;
+}
+#highlight{
+    color: rgb(235, 156, 110);
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{
+        box-shadow: 1px 1px 35px rgb(235, 156, 110)
+    }
+    to{
+        box-shadow: 1px 1px 35px #fff
+    }
+}
+button{
+    margin-top: 500px;
+    color:black;
+    background-color: rgb(235, 156, 110);
+    border: 2px solid rgb(235, 156, 110);
+    transition: 0.3s ease;
+    height: 50px;
+    font-weight:bold;
+    width: 200px;
+}
+button:hover{
+    color:white;
+    background-color: transparent;
+    width: 230px;
+}
